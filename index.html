@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Contatos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="https://cdn-icons-png.flaticon.com/512/5441/5441859.png" alt="Foto de Uma Lista de Contatos">
+            <h1>Lista de Contatos</h1>
+        </header>
+        <form id="form-contatos">
+            <input type="text"  id="nome-contato" required placeholder="Nome do Contato">
+            <input type="tel" pattern="\d{11}" title="O Número Precisa ter 11 Dígitos Númericos - (XX) 9XXXX-XXXX" id="numero-contato" required placeholder="Telefone do Contato">
+            <button type="submit">Adicionar Contato</button>
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot>
+            </tfoot>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
